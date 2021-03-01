@@ -159,6 +159,43 @@ frenchLastNamePostfixes = [
     "x"
 ]
 
+italianLastNamePrefixes = [
+    "Be", "Bel", "Ben", "Ber", "Bern", "Bi", "Bi", "Bru", "Brun",
+    "Car", "Carb", "Co", "Col", "Con", "Cont", "Cop", "Cos", "Cos", "Cost", "Cost",
+    "Dan", "Dang", "De", "De", "De", "De", "Del", "Der", "Des",
+    "E", "Es", "Esp",
+    "Fa", "Fab", "Far", "Fer", "Fer", "Fer", "Fer", "Fer", "Fi", "Fon", "Font",
+    "Gal", "Gal", "Gat", "Gen", "Gent", "Gi", "Giu", "Giul", "Gras", "Guer",
+    "Le", "Lom", "Lom", "Lomb", "Lomb", "Lon", "Long",
+    "Ma", "Ma", "Ma", "Man", "Manc", "Mar", "Mar", "Mar", "Mar", "Mar", "Mart", "Mart", "Mart", "Mes", "Mi", "Mil", "Mo", "Mo", "Mon", "Mon", "Mont", "Mont", "Mor", "Mor",
+    "Or", "Orl",
+    "Pa", "Pa", "Pal", "Par", "Pel",
+    "Ri", "Ric", "Rin", "Riz", "Riz", "Ro", "Ros", "Ros", "Rug", "Rus",
+    "Sa", "Sal", "San", "San", "Sant", "Ser", "Sil", "Silv",
+    "Tes", "Test",
+    "Va", "Val", "Vi", "Vil", "Vit",
+]
+
+italianLastNamePostfixes = [
+    "a", "a", "a", "aldi", "ale", "ana", "anari", "anchi", "anco", "ando", "angelis", "ani", "antini", "antis", "ardi", "ardi", "ardo",
+    "bardi", "bardo", "bone", "bri",
+    "ci", "cini",
+    "edetti", "elli", "elo", "entini", "estri", "etti",
+    "gelo", "giero", "go",
+    "i", "i", "iani", "iani", "ile", "ina", "inelli", "ini", "ini", "ini", "ino", "ino", "isi",
+    "la", "la", "lando", "lani", "legrini", "lentini", "li", "liani", "lini", "lo", "lombo", "luca", "lumbo",
+    "mano",
+    "na", "naldi", "nardi", "nedetti", "no",
+    "o", "o", "ombo", "one", "one", "ordano", "ore", "oro", "osa", "osito",
+    "pola", "posito",
+    "ra", "ra", "rara", "rari", "raro", "relli", "retti", "retti", "ri", "riani", "rina", "rini", "rino", "risi", "rosa",
+    "santis", "setti", "si", "sina", "so", "so", "sposito",
+    "ta", "ta", "tale", "tana", "tanari", "tantini", "ti", "ti", "ti", "tile", "tinelli", "tini", "tino", "toro",
+    "uca", "umbo",
+    "vestri",
+    "zi", "zo",
+]
+
 print("\n")
 print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
 print("WELCOME TO THE NAME GENERATOR")
@@ -207,12 +244,15 @@ while(True):
         print("")
         print("Select a culture to generate from:")
         print("  Enter 1 for French")
+        print("  Enter 2 for Italian")
         print("")
 
         selectCulture = input()
 
         if(selectCulture == 1):
             typeCulture = "French"
+        elif(selectCulture == 2):
+            typeCulture = "Italian"
         else:
             print("ERROR - Invalid culture to generate name from.")
             print("Please try again...")
@@ -235,8 +275,11 @@ while(True):
         print("STANDBY - Generating a random " + typeName + " with a " + typeCulture + " feel...")
         print("")
         if(typeCulture == "French"):
-            namePrefix = frenchLastNamePrefixes[random.randint(0, len(frenchLastNamePrefixes) - 1)];
-            namePostfix = frenchLastNamePostfixes[random.randint(0, len(frenchLastNamePostfixes) - 1)];
+            namePrefix = frenchLastNamePrefixes[random.randint(0, len(frenchLastNamePrefixes) - 1)]
+            namePostfix = frenchLastNamePostfixes[random.randint(0, len(frenchLastNamePostfixes) - 1)]
+        elif(typeCulture == "Italian"):
+            namePrefix = italianLastNamePrefixes[random.randint(0, len(italianLastNamePrefixes) - 1)]
+            namePostfix = italianLastNamePostfixes[random.randint(0, len(italianLastNamePostfixes) - 1)]
 
     print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
     print(namePrefix + namePostfix)
