@@ -159,6 +159,34 @@ frenchLastNamePostfixes = [
     "x"
 ]
 
+italianFirstNameFemalePrefixes = [
+    "A", "A", "A", "A", "A", "Ad", "Ad", "Ad", "Ad", "Ad", "Add", "Ag", "Ag", "Ai", "Ai", "Aid", "Aix", "Al", "Al", "Al", "Al", "Al", "Alb", "Alb", "Ald", "All", "Am", "Am", "Am", "Am", "Am", "Amb", "An", "An", "An", "An", "An", "And", "And", "Ang", "Ant", "Ant", "Ant", "Anth", "Anz", "Ap", "Ar", "Ar", "Ar", "Ar", "Ar", "Ard", "Arm", "Arv", "As", "Au", "Au", "Aug", "Aur", "Av", "Az",
+    "Bam", "Bamb", "Bea", "Beat", "Be", "Ben", "Bi", "Bi", "Bi", "Blan", "Blanc", "Bo", "Bo", "Bon", "Bon", "Bri", "Brin",
+]
+
+italianFirstNameFemalePostfixes = [
+    "a", "a", "a", "a", "a", "abela", "adea", "anca", "anka", "aranta", "aricia", "ata", "ata",
+    "ba", "bertina", "bi", "bra",
+    "ca",
+    "da", "della", "dolorata", "doracion", "dreana", "dreyna", "driana", "drienna", "drienne",
+    "edea", "edicta", "elica", "ella", "ella", "ertina", "essa", "essandra", "essia",
+    "gata", "gelica", "gostina", "gustina",
+    "i", "ia", "ica", "ica", "icela", "ietta", "is", "istela",
+    "legria", "lessa", "lessandra", "lessia", "lica", "loma", "lonza",
+    "madea", "maranta", "medea", "mica", "monda",
+    "na", "nafila", "nalisa", "nata", "nedicta", "netta", "nifacia", "nonciada", "nunciata", "nunziata",
+    "oma", "onca", "onciada", "onda", "onella", "onietta", "onza", "oracion", "ostina",
+    "paricia",
+    "ra", "rabela", "reana", "reyna", "riana", "ricela", "rienna", "rienne", "rietta", "ristela", "ryana",
+    "sunta",
+    "ta", "tonella", "tonietta",
+    "ustina",
+    "vella", "vis",
+    "xa",
+    "yana",
+    "zia", "zura",
+]
+
 italianLastNamePrefixes = [
     "Ma", "Ma", "Ma", "Man", "Manc", "Mar", "Mar", "Mar", "Mar", "Mar", "Mart", "Mart", "Mart", "Mes", "Mi", "Mil", "Mo", "Mo", "Mon", "Mon", "Mont", "Mont", "Mor", "Mor",
     "Car", "Carb", "Co", "Col", "Con", "Cont", "Cop", "Cos", "Cos", "Cost", "Cost",
@@ -261,7 +289,7 @@ while(True):
 
     if(typeName == "First Name"):
         print("")
-        print("STANDBY - Generating a random " + typeGender + "'s " + typeName + " with a " + typeCulture + " feel...")
+        print("STANDBY - Generating a random " + typeGender + " " + typeName + " with a " + typeCulture + " feel...")
         print("")
         if(typeCulture == "French"):
             if(typeGender == "Female"):
@@ -270,6 +298,13 @@ while(True):
             elif(typeGender == "Male"):
                 namePrefix = frenchFirstNameMalePrefixes[random.randint(0, len(frenchFirstNameMalePrefixes) - 1)]
                 namePostfix = frenchFirstNameMalePostfixes[random.randint(0, len(frenchFirstNameMalePostfixes) - 1)]
+        elif(typeCulture == "Italian"):
+            if(typeGender == "Female"):
+                namePrefix = italianFirstNameFemalePrefixes[random.randint(0, len(italianFirstNameFemalePrefixes) - 1)]
+                namePostfix = italianFirstNameFemalePostfixes[random.randint(0, len(italianFirstNameFemalePostfixes) - 1)]
+            elif(typeGender == "Male"):
+                namePrefix = italianFirstNameMalePrefixes[random.randint(0, len(italianFirstNameMalePrefixes) - 1)]
+                namePostfix = italianFirstNameMalePostfixes[random.randint(0, len(italianFirstNameMalePostfixes) - 1)]
     elif(typeName == "Last Name"):
         print("")
         print("STANDBY - Generating a random " + typeName + " with a " + typeCulture + " feel...")
