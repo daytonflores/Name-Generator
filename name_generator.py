@@ -19,7 +19,7 @@ frenchFirstNameFemalePrefixes = [
     "Bel", "Ber", "Bern", "Bet", "Bla", "Blai", "Blais", "Blan", "Blanch", "Blas", "Bon", "Bri", "Bri", "Bri", "Brig",
     "E", "E", "E", "E", "E", "El", "El", "El", "El", "El", "Em", "Em", "Em", "Es", "Es", "Est", "Est", "Et", "Ev",
     "Pa", "Pa", "Pag", "Par", "Parn", "Pat", "Pe", "Per", "Pip", "Prai", "Prair",
-    "Ve", "Ver", "Vi", "Vign", "Vil", "Vi", "Vir", "Virg", "Vo", "Vol", "Von"
+    "Ve", "Ver", "Vi", "Vign", "Vil", "Vi", "Vir", "Virg", "Vo", "Vol", "Von",
     "Tal", "Tem", "Temp", "Toi", "Toin", "Tur", "Turq",
     "Ka", "Kar", "Kar", "Karm", "Kla", "Klar",
     "O", "O", "Od", "Op", "Or", "Or", "Orv",
@@ -161,30 +161,58 @@ frenchLastNamePostfixes = [
 
 italianFirstNameFemalePrefixes = [
     "A", "A", "A", "A", "A", "Ad", "Ad", "Ad", "Ad", "Ad", "Add", "Ag", "Ag", "Ai", "Ai", "Aid", "Aix", "Al", "Al", "Al", "Al", "Al", "Alb", "Alb", "Ald", "All", "Am", "Am", "Am", "Am", "Am", "Amb", "An", "An", "An", "An", "An", "And", "And", "Ang", "Ant", "Ant", "Ant", "Anth", "Anz", "Ap", "Ar", "Ar", "Ar", "Ar", "Ar", "Ard", "Arm", "Arv", "As", "Au", "Au", "Aug", "Aur", "Av", "Az",
+    "Ca", "Ca", "Ca", "Ca", "Ca", "Cae", "Cael", "Cal", "Calth", "Cam", "Cam", "Can", "Cand", "Cap", "Car", "Car", "Car", "Car", "Car", "Carl", "Carl", "Ce", "Ce", "Ce", "Ced", "Cer", "Chas", "Chi", "Ci", "Cin", "Cla", "Clar", "Clau", "Claud", "Cle", "Clem", "Con", "Con", "Conc", "Cor", "Cord", "Cry", "Crys", "Cryst",
+    "Ma", "Ma", "Ma", "Ma", "Ma", "Mad", "Maj", "Mar", "Mar", "Mar", "Mar", "Mar", "Marc", "Marc", "Marg", "Mark", "Mart", "Max", "Me", "Mel", "Mer", "Merc", "Mes", "Mes", "Mi", "Mi", "Mi", "Mi", "Mi", "Mich", "Mich", "Mich", "Mich", "Mir", "Mo", "Mod", "My", "Myr",
+    "La", "La", "La", "La", "La", "Lac", "Laet", "Lar", "Lat", "Laur", "Laur", "Lav", "Lav", "Le", "Le", "Led", "Li", "Li", "Li", "Li", "Lib", "Lid", "Lir", "Lo", "Lor", "Lu", "Lu", "Lu", "Lu", "Lu", "Luc", "Luc", "Luc", "Luc", "Luc",
+    "Ga", "Ga", "Gab", "Gab", "Gar", "Garc", "Ge", "Ge", "Gen", "Gent", "Ges", "Gi", "Gi", "Gi", "Gi", "Gi", "Gin", "Giu", "Giu", "Giu", "Giu", "Giul", "Giul", "Giun", "Gius", "Glo", "Glor", "Gra", "Graz", "Gre", "Grec", "Guil",
+    "Pa", "Pa", "Pa", "Pac", "Paol", "Pas", "Pat", "Pau", "Paul", "Pe", "Per", "Per", "Perl", "Phoe", "Phoen", "Pi", "Pi", "Pi", "Pil", "Pisc", "Pla", "Plac", "Pop", "Pre", "Prec", "Pri", "Pri", "Prim", "Prisc", "Pru", "Prud",
+    "Va", "Va", "Val", "Val", "Ve", "Ve", "Ve", "Ve", "Ve", "Ved", "Ven", "Ven", "Ven" "Ven", "Ven", "Ver", "Ver", "Ver", "Verb", "Vi", "Vi", "Vi", "Vic", "Vict", "Vik", "Vikt", "Vir", "Virg", "Vis", "Viv",
+    "Sa", "Sa", "Sa", "Sab", "Sal", "Sal", "Salv", "San", "Sant", "Sav", "Se", "Se", "Ser", "Sev", "Shi", "Shil", "Sil", "Silv", "Stel", "Syl", "Sylv",
+    "Da", "Dan", "De", "Dej", "Dex", "Dext", "Di", "Di", "Di", "Dign", "Div", "Do", "Do", "Do", "Don", "Don", "Don", "Dor", "Dru", "Drus",
+    "Ja", "Ja", "Jac", "Ji", "Jil", "Jo", "Jo", "Jo", "Jos", "Jov", "Jov", "Ju", "Ju", "Ju", "Jul", "Jus", "Jus", "Just", "Just", "Jyl",
+    "Rai", "Rain", "Re", "Re", "Ref", "Rest", "Ri", "Ric", "Ro", "Ro", "Ro", "Ro", "Ros", "Ros", "Ros", "Ros", "Ru", "Ruf",
     "Bam", "Bamb", "Bea", "Beat", "Be", "Ben", "Bi", "Bi", "Bi", "Blan", "Blanc", "Bo", "Bo", "Bon", "Bon", "Bri", "Brin",
+    "Tae", "Taesh", "Te", "Te", "Ter", "Ter", "Ti", "Ti", "Tif", "Tif", "Tor", "Torc", "Tri", "Trish", "Tris", "Trist",
+    "Fa", "Fa", "Fe", "Fe", "Fe", "Fel", "Fel", "Fi", "Fi", "Fi", "Fi", "Fil", "Fil", "Fla", "Flav", "Fron", "Frond",
+    "O", "O", "O", "O", "O", "Ol", "On", "Or", "Or", "Or", "Or", "Or", "Orl", "Orq", "Ort", "Ot",
+    "Ne", "Ni", "Nic", "No", "No", "No", "Nol", "Nol", "Ny", "Nyd",
+    "E", "E", "E", "E", "El", "El", "Em", "Em", "Er", "Erm",
+    "I", "I", "I", "I", "Id", "Im", "In", "Is", "Is",
+    "Zi", "Zi", "Zin", "Zoi", "Zoil", "Zo", "Zol",
+    "Ka", "Ka", "Kam", "Kam", "Kle", "Klem",
+    "Quar", "Quart", "Quin", "Quint",
+    "Her", "Herm",
+    "Um", "Umb",
+    "Xa", "Xab",
+    "Yo", "Yos"
 ]
 
 italianFirstNameFemalePostfixes = [
-    "a", "a", "a", "a", "a", "abela", "adea", "anca", "anka", "aranta", "aricia", "ata", "ata",
-    "ba", "bertina", "bi", "bra",
-    "ca",
-    "da", "della", "dolorata", "doracion", "dreana", "dreyna", "driana", "drienna", "drienne",
-    "edea", "edicta", "elica", "ella", "ella", "ertina", "essa", "essandra", "essia",
-    "gata", "gelica", "gostina", "gustina",
-    "i", "ia", "ica", "ica", "icela", "ietta", "is", "istela",
-    "legria", "lessa", "lessandra", "lessia", "lica", "loma", "lonza",
-    "madea", "maranta", "medea", "mica", "monda",
-    "na", "nafila", "nalisa", "nata", "nedicta", "netta", "nifacia", "nonciada", "nunciata", "nunziata",
-    "oma", "onca", "onciada", "onda", "onella", "onietta", "onza", "oracion", "ostina",
-    "paricia",
-    "ra", "rabela", "reana", "reyna", "riana", "ricela", "rienna", "rienne", "rietta", "ristela", "ryana",
-    "sunta",
-    "ta", "tonella", "tonietta",
-    "ustina",
-    "vella", "vis",
-    "xa",
-    "yana",
-    "zia", "zura",
+    "e", "e", "e", "e", "e", "ecia", "edea", "edicta", "een", "el", "el", "el", "ele", "elia", "elia", "eliana", "elica", "elina", "elina", "eline", "eline", "ell", "ella", "ella", "ella", "ella", "en", "ena", "ena", "ena", "ence", "ence", "ence", "enna", "ensia", "entia", "entine", "enza", "eppina", "eranda", "erina", "erita", "erne", "ertad", "ertina", "erva", "es", "es", "essa", "essandra", "essia", "esta", "esta", "eta", "ethea", "etia", "eticia", "etta", "etta", "ette", "ette", "ezia",
+    "i", "i", "i", "i", "i", "ia", "ia", "ia", "ia", "ia", "iaelena", "iana", "iana", "iana", "iata", "ica", "ica", "ica", "ica", "ica", "ice", "ice", "icela", "icia", "icia", "iciana", "icitas", "ida", "ida", "ie", "iela", "iella", "ietta", "ietta", "ifacia", "igia", "ila", "ila", "ila", "ilia", "ilia", "ilia", "illa", "ima", "imena", "in", "in", "ina", "ina", "ina", "ina", "ina", "ine", "ine", "ing", "iola", "ippa", "is", "isha", "isse", "istela", "ita", "ita", "ita", "itacion", "ix",
+    "ra", "ra", "ra", "ra", "ra", "rabel", "rabela", "raina", "ramata", "razia", "reana", "reen", "ren", "rena", "rence", "rene", "renza", "res", "reyna", "rezia", "ri", "ria", "riaelena", "riana", "rica", "rica", "rice", "ricela", "riela", "riella", "rienna", "rienne", "rietta", "rietta", "rina", "rina", "rina", "rine", "riola", "risse", "ristela", "rita", "rizia", "rizia", "ronika", "rotina", "ryana", "ryl",
+    "a", "a", "a", "a", "a", "abel", "abela", "abela", "abella", "acinta", "adea", "adonna", "afila", "ah", "ah", "aina", "al", "alda", "alina", "amata", "ana", "ana", "anca", "ani", "anira", "anka", "anna", "anna", "anna", "anna", "annie", "anora", "ara", "ara", "ara", "aranta", "aricia", "arita", "arra", "ata", "ata", "atora", "avera", "avia", "azia",
+    "l", "l", "la", "la", "la", "la", "la", "lah", "laine", "lana", "lea", "legria", "lelmina", "lena", "lentia", "lessa", "lessandra", "lessia", "leta", "lethea", "lette", "li", "li", "lia", "lia", "lian", "lica", "liciana", "licitas", "ligia", "limena", "lin", "line", "ling", "lippa", "lita", "lita", "loma", "lomena", "lonza", "lotta", "lustiana",
+    "obella", "ogene", "ola", "ole", "olina", "oline", "oma", "omena", "onca", "onciada", "onda", "onella", "onetta", "onietta", "onika", "onila", "onna", "onza", "oracion", "ordana", "orel", "orella", "oria", "ory", "ostina", "otina", "otta", "ovanna", "ovanni",
+    "na", "na", "na", "na", "nafila", "nalisa", "nata", "ne", "necia", "nedicta", "neranda", "nerva", "netia", "netta", "nezia", "nia", "nia", "nia", "nica", "nice", "nie", "niela", "nifacia", "nix", "nonciada", "nunciata", "nunziata", "nya",
+    "sa", "sabela", "sabella", "salina", "scila", "scina", "seline", "sella", "seppina", "setta", "sha", "si", "sica", "sida", "sina", "sion", "sitacion", "slin", "stal", "stin", "stin", "stituta", "styna", "sunta",
+    "ca", "cadonna", "celiana", "cella", "cerne", "ces", "cetta", "chel", "chele", "chelina", "cheline", "cia", "cia", "cia", "ciana", "ciana", "cida", "cila", "cobella", "cola", "cole", "crezia", "cuata", "cy",
+    "da", "dara", "de", "de", "del", "della", "dence", "desta", "dette", "dia", "dicia", "dida", "dolorata", "donna", "doracion", "dreana", "dreyna", "driana", "drienna", "drienne", "drina", "dula",
+    "ta", "tal", "tavia", "tensia", "tha", "ti", "tia", "tilia", "tilla", "tin", "tin", "tituta", "tisha", "tl", "tonella", "tonietta", "toria", "tory", "tra", "trizia", "tyna",
+    "maculada", "madea", "maranta", "mavera", "medea", "melia", "melia", "mence", "mentine", "merita", "mica", "mie", "mila", "milia", "mina", "mine", "mogene", "monda",
+    "valda", "vana", "vannie", "vatora", "ve", "vella", "verina", "via", "viana", "viana", "viata", "vina", "vina", "vis",
+    "ba", "belina", "bena", "bertad", "bertina", "bi", "bina", "bra", "briela", "briella", "brina", "brizia",
+    "garita", "gata", "gelica", "gilia", "gna", "gostina", "gustina",
+    "uata", "ugio", "uidea", "ula", "ustiana", "ustina",
+    "y", "ya", "ya", "yana", "yl", "yna",
+    "fa", "fani", "fugio", "fy",
+    "zia", "ziella", "zura",
+    "paricia", "pri", "py",
+    "janira", "jesta",
+    "xa", "xima",
+    "quidea",
+    "kell",
+    "h"
 ]
 
 italianLastNamePrefixes = [
@@ -201,7 +229,7 @@ italianLastNamePrefixes = [
     "Va", "Val", "Vi", "Vil", "Vit",
     "E", "Es", "Esp",
     "Tes", "Test",
-    "Or", "Orl",
+    "Or", "Orl"
 ]
 
 italianLastNamePostfixes = [
@@ -221,7 +249,7 @@ italianLastNamePostfixes = [
     "ci", "cini",
     "zi", "zo",
     "vestri",
-    "mano",
+    "mano"
 ]
 
 print("\n")
