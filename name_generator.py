@@ -215,6 +215,56 @@ italianFirstNameFemalePostfixes = [
     "h"
 ]
 
+italianFirstNameMalePrefixes = [
+    "A", "A", "A", "A", "A", "Ab", "Ab", "Ach", "Ad", "Ad", "Ad", "Ad", "Ad", "Ag", "Ag", "Ag", "Al", "Al", "Al", "Al", "Al", "Alb", "Ald", "Alf", "Alf", "Alf", "Alph", "Alv", "Am", "Am", "Am", "Am", "Am", "Amb", "Amb", "An", "An", "An", "An", "An", "And", "Ang", "Anj", "Ans", "Ant", "Ant", "Ant", "Ar", "Ar", "Ar", "Ar", "Ar", "Arc", "Ard", "Arm", "Arm", "Arn", "Ars", "Art", "At", "Au", "Au", "Aug", "Aur",
+    "Ga", "Ga", "Gas", "Gasp", "Gav", "Ge", "Ge", "Ge", "Gen", "Ger", "Ger", "Ger", "Gerv", "Gi", "Gi", "Gi", "Gi", "Gi", "Gian", "Gian", "Gian", "Gian", "Gian", "Gio", "Gio", "Gion", "Gior", "Giorg", "Gios", "Gir", "Giu", "Giu", "Giul", "Gius", "Giust", "Gra", "Graz", "Gre", "Greg", "Gue", "Guer", "Gui", "Guid",
+    "Ca", "Ca", "Ca", "Cal", "Cal", "Cal", "Calv", "Cam", "Car", "Car", "Carl", "Carl", "Cas", "Ce", "Ce", "Ce", "Cel", "Cel", "Cen", "Cenc", "Ces", "Ci", "Ci", "Ci", "Cir", "Cir", "Cir", "Cle", "Clem", "Co", "Co", "Co", "Col", "Con", "Conc", "Cor", "Cos", "Cos", "Cost",
+    "Ba", "Bal", "Bal", "Bald", "Bald", "Bar", "Bar", "Bar", "Bart", "Bart", "Bart", "Bas", "Bat", "Be", "Be", "Be", "Be", "Be", "Bel", "Belv", "Ben", "Ben", "Ben", "Ben", "Ben", "Bep", "Ber", "Ber", "Ber", "Ber", "Bern", "Bern", "Bert", "Bert", "Bet", "Bi", "Bi", "Bi",
+    "Fa", "Fa", "Fa", "Fab", "Fab", "Fau", "Faus", "Faust", "Faz", "Fe", "Fe", "Fe", "Fed", "Fel", "Fel", "Fer", "Fi", "Fi", "Fi", "Fil", "Fil", "Fla", "Flav", "Flo", "Flor", "Fo", "Fo", "Fo", "Fon", "Fon", "For", "Fort", "Fre", "Fred", "Ful", "Fulv",
+    "Sa", "Sa", "Sa", "Sa", "Sa", "Sab", "Sal", "Sam", "San", "San", "Sans", "Sant", "Sat", "Sav", "Sce", "Scev", "Se", "Se", "Ser", "Ser", "Serv", "Set", "Sev", "Si", "Sif", "Sil", "Sil", "Silv", "Silv", "Sim", "Ste", "Stef",
+    "La", "La", "La", "Lad", "Lar", "Lau", "Laur", "Laz", "Le", "Le", "Le", "Le", "Ler", "Li", "Li", "Lib", "Lo", "Lo", "Lo", "Lod", "Lor", "Loth", "Lu", "Lu", "Lu", "Luc", "Lud", "Luk",
+    "Ra", "Ra", "Raf", "Raf", "Rai", "Rain", "Ran", "Re", "Re", "Re", "Rem", "Ren", "Ren", "Renz", "Ri", "Ri", "Ric", "Ric", "Rin", "Ro", "Ro", "Rob", "Rod", "Ru", "Rud", "Rug", "Rug",
+    "Ma", "Man", "Mar", "Mar", "Mar", "Mar", "Mar", "Marc", "Marc", "Marc", "Mars", "Marz", "Mas", "Mat", "Mau", "Maur", "Max", "Mel", "Melch", "Mi", "Mich", "Mo", "Mod", "My", "Myl",
+    "E", "E", "E", "E", "E", "Ed", "Eg", "El", "El", "El", "Elm", "Em", "Em", "En", "Er", "Er", "Er", "Erc", "Erm", "Ern", "Et", "Eu", "Eu", "Eus", "Eus", "Eust", "Ez",
+    "Pa", "Pa", "Pa", "Pal", "Palm", "Pan", "Panf", "Paol", "Par", "Pas", "Pasq", "Pel", "Pi", "Pi", "Pin", "Pla", "Plac", "Pom", "Pomp", "Pri", "Prim", "Pru", "Prud",
+    "Na", "Na", "Nap", "Nat", "Ne", "Ne", "Ner", "Nes", "Nest", "Ni", "Ni", "Ni", "Ni", "Nic", "Nic", "Nic", "Nic", "Nin", "Nun", "Nunz",
+    "Tad", "Tan", "Tanc", "Te", "Te", "Te", "Ter", "Tho", "Thor", "Ti", "Ti", "Tim", "Tiz", "Tom", "To", "Tor", "Tu", "Tul",
+    "Da", "Dan", "Dant", "Dav", "De", "De", "Des", "Dez", "Do", "Do", "Dom", "Don", "Dra", "Drag", "Du", "Dur",
+    "Va", "Val", "Van", "Ven", "Venc", "Vi", "Vi", "Vic", "Vin", "Vinc", "Vir", "Virg", "Vit", "Vit",
+    "O", "O", "O", "Ol", "Or", "Or", "Orf", "Ors", "Os", "Osv", "Ot", "Ov",
+    "U", "U", "Ub", "Uc", "Ul", "Ul", "Uld", "Ur", "Urb",
+    "I", "Ig", "In", "Is",
+    "Hi", "Hie", "Hier",
+    "Ja", "Jac",
+    "Za", "Zan"
+]
+
+italianFirstNameMalePostfixes = [
+    "o", "o", "o", "o", "o", "oacchino", "oardo", "obaldo", "odemo", "odosio", "ogero", "ola", "olamo", "olamo", "olas", "oldo", "oldo", "ole", "oleone", "olfo", "olfo", "olo", "olomeo", "olommeo", "olpho", "ombano", "omedo", "on", "ona", "onardo", "one", "one", "onello", "onino", "onio", "onomo", "onso", "onso", "onzio", "onzo", "opo", "ore", "orenzo", "orgino", "orgio", "orio", "orio", "os", "osia", "ostino", "oteo", "otto", "ovani", "ovanni", "ovico", "ovico", "ovino",
+    "a", "a", "acleto", "acomo", "adeo", "aele", "aello", "afino", "aggio", "agino", "agio", "aia", "alberto", "aldo", "aldo", "alfieri", "alis", "amo", "ampaolo", "an", "anaele", "ancinto", "ando", "ando", "andro", "angelo", "anluca", "anmarco", "anno", "ano", "ano", "ano", "anpaolo", "anpiero", "ante", "antino", "anuele", "apeto", "apito", "ardino", "ardo", "ardo", "ardo", "arino", "ario", "aro", "aro", "asio", "assare", "astagio", "astasio", "ato", "ato", "atolio",
+    "e", "e", "ebio", "edeo", "eder", "edetto", "ele", "ele", "elino", "elio", "elio", "ello", "ello", "ello", "elmo", "elo", "elo", "enico", "enio", "ente", "entino", "entino", "enz", "enzio", "enzio", "enzo", "enzo", "enzo", "eo", "eo", "eo", "eplio", "eriano", "erico", "erico", "erigo", "erino", "erino", "ero", "eronomo", "erto", "erto", "erto", "eslao", "essandro", "essio", "estino", "esto", "esto", "ete", "etto",
+    "i", "i", "ia", "ia", "iaco", "iamino", "iano", "iano", "iano", "iano", "ice", "ide", "ide", "idio", "ido", "ieri", "iero", "igio", "igno", "ilio", "ilio", "ilio", "ille", "illo", "ilo", "ilo", "imino", "imo", "ino", "ino", "ino", "ino", "ino", "io", "io", "io", "io", "io", "iodoro", "iorre", "ipo", "ippo", "irio", "ise", "islao", "ito", "ivero", "izio",
+    "radeo", "rafino", "ramo", "rando", "rante", "rardo", "re", "rea", "redo", "redo", "relio", "rello", "rentino", "renz", "renzio", "renzo", "renzo", "riaco", "riano", "rico", "ride", "rigo", "rilo", "rino", "rino", "rio", "rizio", "rizio", "ro", "ro", "rogino", "rogio", "rolamo", "rolamo", "roldo", "ronomo", "ruccio",
+    "tanaele", "tantino", "taviano", "te", "teo", "thario", "tilio", "timio", "tino", "tino", "tino", "tino", "tista", "to", "to", "toldo", "tolo", "tolomeo", "tolommeo", "tonello", "tonino", "tonio", "tore", "tore", "torgio", "torino", "trando", "turno", "turo",
+    "n", "n", "na", "nacleto", "naldo", "naldo", "nardino", "nardo", "nardo", "naro", "nastagio", "nastasio", "nato", "natolio", "nazio", "nedetto", "nesto", "ni", "ni", "niamino", "nieri", "niero", "nigno", "nito", "no", "no", "nocenzo", "ns", "nz",
+    "l", "legrino", "lentino", "lessandro", "lessio", "lestino", "lia", "lice", "lino", "lio", "lio", "lio", "lio", "liodoro", "lipo", "lipo", "lippo", "listo", "livero", "livieri", "lo", "logero", "lombano", "lon", "lonzo", "los", "luca",
+    "dalberto", "dalfieri", "damo", "dassare", "denzio", "deo", "derico", "derico", "desto", "diano", "dio", "dislao", "do", "do", "doardo", "dolfo", "dolfo", "dolpho", "dovico", "dovico", "dovino", "drea", "driano", "duino",
+    "cangelo", "cardo", "celino", "cello", "cello", "cenzo", "ceslao", "cetto", "chele", "chille", "chiorre", "ciano", "cido", "cinto", "cio", "co", "co", "co", "codemo", "colas", "cole", "colo", "comedo", "copo", "credo",
+    "madeo", "mando", "mando", "manno", "manuele", "marco", "maso", "mato", "medeo", "menico", "mente", "meplio", "merigo", "mete", "migio", "milio", "millo", "miro", "miro", "mo", "mo", "mone", "moteo", "muele",
+    "s", "saia", "salis", "sarino", "sebio", "selmo", "senio", "si", "sia", "silio", "similiano", "simo", "sino", "smiro", "sone", "sparo", "squalino", "stantino", "stino", "stino", "store", "storgio", "svaldo",
+    "valdo", "vano", "vasio", "veder", "venuto", "veriano", "verino", "vide", "vidio", "vino", "vino", "vino", "vino", "vio", "vio", "vise", "vola",
+    "bano", "bele", "berto", "berto", "berto", "bino", "bio", "borio", "bramo", "brizio", "brogino", "brogio",
+    "gapeto", "gapito", "gelo", "gerio", "giero", "gilio", "gino", "go", "gorio", "gostino", "gusto",
+    "faele", "faello", "fano", "feo", "feo", "filo", "firio", "fonso", "fredo", "fredo",
+    "z", "zaro", "zelin", "zi", "ziano", "ziano", "zio", "zio", "zio", "zo",
+    "paolo", "paro", "pe", "pelio", "peo", "phonso", "piero", "poleone",
+    "ualino", "uele", "ugi", "uino", "urno", "uro", "ustino", "usto",
+    "qualino",
+    "ximino",
+    "jelo",
+    "ka"
+]
+
 italianLastNamePrefixes = [
     "Ma", "Ma", "Ma", "Man", "Manc", "Mar", "Mar", "Mar", "Mar", "Mar", "Mart", "Mart", "Mart", "Mes", "Mi", "Mil", "Mo", "Mo", "Mon", "Mon", "Mont", "Mont", "Mor", "Mor",
     "Car", "Carb", "Co", "Col", "Con", "Cont", "Cop", "Cos", "Cos", "Cost", "Cost",
