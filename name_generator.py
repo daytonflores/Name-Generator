@@ -4,6 +4,123 @@ selectName = 0
 selectGender = 0
 selectCulture = 0
 
+finnishFirstNameFemalePrefixes = [
+    "Sa", "Sa", "Saa", "Saar", "Sar", "Sat", "Sat", "Si", "Si", "Si", "Si", "Sie", "Siev", "Sii", "Siir", "Sil", "Silj", "Sin", "Sin", "Sir", "Sirp", "Sis", "Soh", "Sohv", "Su", "Su", "Suv", "Syl", "Sylv",
+    "Ma", "Ma", "Maa", "Maa", "Maar", "Maar", "Mak", "Mar", "Mar", "Mar", "Mar", "Marj", "Marj", "Marj", "Marj", "Mat", "Me", "Mer", "Met", "Mets", "Mii", "Miin", "Mint", "Mir", "Mir", "Mirj", "Mirj",
+    "Tai", "Tai", "Tai", "Taik", "Taim", "Tait", "Tar", "Tarj", "Te", "Ter", "Ti", "Toi", "Toin", "Tu", "Tu", "Tul", "Tuu", "Tuu", "Tuu", "Tuul", "Tuul", "Tuul",
+    "Lah", "Lahj", "Lee", "Leen", "Lii", "Lii", "Lii", "Liin", "Liis", "Liis", "Lin", "Lint", "Lo", "Lou", "Louh", "Lov", "Lu", "Luv", "Lyy", "Lyyd",
+    "Ka", "Ka", "Ka", "Ka", "Ka", "Kai", "Kaij", "Kal", "Kar", "Kat", "Kat", "Kat", "Kat", "Kert", "Kie", "Kiel", "Kuk", "Kun", "Kyl",
+    "Raa", "Raak", "Rau", "Rauh", "Ree", "Reet", "Rii", "Rii", "Riik", "Riin", "Riit", "Rik", "Rit", "Ruu", "Ruus",
+    "E", "E", "E", "E", "E", "Ee", "Ee", "Ee", "Eer", "Eev", "Eev", "El", "El", "El", "El", "Et", "Ev",
+    "I", "I", "Ii", "Iid", "Il", "Il", "Il", "Ilm", "Ilt", "In", "In", "In", "Ink", "Ink", "Ir",
+    "Pai", "Paiv", "Pau", "Paul", "Pel", "Pi", "Pi", "Pii", "Pil", "Pilv", "Pir", "Pir", "Pirk",
+    "Va", "Va", "Vak", "Val", "Van", "Var", "Varp", "Vee", "Veer", "Ven", "Vii", "Viiv", "Vu",
+    "A", "Aa", "Aam", "Ai", "Ain", "Ak", "Al", "Al", "An", "An", "An", "An", "An", "Ans",
+    "Han", "Han", "Hel", "Hel", "Hel", "Helm", "Hen", "Hi", "Hil", "Hil",
+    "U", "U", "U", "Un", "Us", "Usk", "Ut",
+    "Nii", "Niin", "Noo", "Noor",
+    "Jaa", "Jaan", "Jan", "Jen",
+    "Do", "Dor",
+    "Or", "Orv",
+    "Wel"
+]
+
+finnishFirstNameFemalePostfixes = [
+    "la", "la", "la", "lamo", "leena", "lervo", "leva", "leva", "levi", "li", "li", "li", "li", "liina", "liina", "likki", "likki", "lina", "lita", "lja", "lo", "loma", "lona", "lykasa",
+    "na", "na", "na", "na", "na", "nalee", "naliisa", "namo", "nari", "ne", "nele", "ni", "ni", "ni", "ni", "ni", "nia", "niina", "nikka", "nikki", "noa", "nukka",
+    "i", "i", "i", "i", "i", "ia", "ia", "ia", "iina", "iina", "iisa", "ija", "ika", "ika", "ikka", "ikki", "ina", "it", "itta", "itta",
+    "ra", "ra", "ra", "rhi", "ri", "ri", "ri", "ri", "riikka", "rika", "rika", "rit", "ritta", "ritta", "roliina", "rotea",
+    "ta", "ta", "ta", "ta", "tariina", "tava", "teva", "ti", "tri", "tu", "tu", "tu", "tu", "tu", "tuma",
+    "a", "a", "a", "a", "a", "aana", "ami", "amo", "ari", "ariina", "ata", "atar", "atta", "ava",
+    "va", "va", "va", "va", "vata", "veliina", "vi", "vi", "vi", "vi", "vi", "viisa", "vokki",
+    "ka", "ka", "ka", "ka", "ka", "kea", "kel", "keri", "keva", "ko", "ko",
+    "o", "o", "oa", "okki", "okko", "oliina", "oma", "oma", "ona", "otea",
+    "ja", "ja", "ja", "ja", "ja", "jaana", "jami", "jatta", "jo", "jut",
+    "ea", "el", "eliina", "eri", "eva", "eva", "eva", "eva", "eva",
+    "sa", "sa", "sa", "sa", "si", "sko", "su",
+    "u", "u", "u", "u", "u", "ut",
+    "matar", "mi", "mi", "mu",
+    "ha", "hi", "hi",
+    "da", "dia",
+    "pa", "pu",
+    "ykasa"
+]
+
+finnishFirstNameMalePrefixes = [
+    "Ta", "Taa", "Taa", "Taav", "Taav", "Tai", "Tai", "Tais", "Taist", "Taiv", "Tap", "Tar", "Tarm", "Tau", "Taun", "Te", "Te", "Te", "Te", "Tee", "Teem", "Tek", "Tep", "Ter", "Ter", "Ter", "Ti", "Tim", "To", "Toi", "Toiv", "Tom", "Tor", "Tors", "Torst", "Tu", "Tuk",
+    "A", "A", "A", "Aa", "Aa", "Aa", "Aa", "Aap", "Aap", "Aat", "Aat", "Aat", "Ah", "Ah", "Aht", "Aht", "Ai", "Aim", "Ak", "Ak", "Aks", "Al", "Al", "Al", "Ale", "Alt", "Ans", "An", "Ant", "Ant", "Ar", "Ar", "Ar", "Ar", "Arm", "Arm", "Art", "Art", "Arv", "Au", "Auk",
+    "Ja", "Ja", "Jal", "Jal", "Jalm", "Jar", "Jo", "Jon", "Joo", "Joo", "Joon", "Joos", "Jor", "Jorm", "Jou", "Jou", "Jou", "Jouk", "Jouk", "Joun", "Ju", "Ju", "Juh", "Juh", "Juk", "Juu", "Juus", "Jyr", "Jyrk",
+    "K", "Ka", "Ka", "Kaa", "Kaap", "Kaap", "Kaar", "Kaar", "Kaarl", "Kaarl", "Kal", "Kar", "Kau", "Kauk", "Ke", "Ke", "Kel", "Kes", "Ko", "Ko", "Kom", "Kos", "Kost", "Ku", "Kus", "Kust", "Kuu", "Kuut", "Ky",
+    "Sa", "Sa", "Sak", "Sak", "Sam", "Sam", "Samp", "Samp", "Samps", "San", "Sant", "Sant", "Sau", "Saul", "Se", "Sep", "Sep", "Su", "Su", "Sul", "Suv",
+    "Vai", "Vain", "Val", "Valt", "Valt", "Ve", "Veik", "Vel", "Vi", "Vi", "Vi", "Vil", "Vil", "Vil", "Vil", "Vil", "Vilj", "Vilj",
+    "Ran", "Rans", "Re", "Rei", "Rei", "Reim", "Rein", "Rek", "Ri", "Ri", "Rik", "Roo", "Roo", "Roop", "Roop", "Ruu", "Ruub",
+    "Ma", "Mai", "Main", "Mark", "Mart", "Mat", "Mau", "Mau", "Mau", "Maun", "Maun", "Maur", "Mi", "Mik", "Mik",
+    "Pa", "Paa", "Paav", "Pas", "Pau", "Paul", "Pe", "Pek", "Pent", "Pert", "Pet", "Py", "Pyr",
+    "E", "E", "Ee", "Ee", "Ee", "Eel", "Eer", "Eer", "Eik", "El", "Er", "Erk", "Ern", "Es",
+    "Las", "Las", "Lau", "Laun", "Lee", "Leev", "Luu", "Luuk",
+    "O", "Oi", "Oiv", "Ol", "Ol", "Os", "Os", "Osk", "Osk",
+    "I", "Ii", "Iik", "Iir", "Il", "Ilm", "Is", "Ism",
+    "Ni", "Nii", "Nii", "Niil", "Nik", "Nyy", "Nyyr",
+    "Han", "Har", "He", "Heik", "Hen", "Hes",
+    "U", "U", "Uk", "Ut",
+    "Yl", "Yr", "Yrj",
+    "Fre", "Fred"
+]
+
+finnishFirstNameMalePostfixes = [
+    "ka", "ka", "ka", "kahainen", "kard", "kari", "kari", "kas", "ke", "kea", "ki", "ki", "ki", "ki", "killes", "ko", "ko", "ko", "ko", "ko", "ku", "ku", "ku", "kusti",
+    "a", "a", "a", "a", "a", "aa", "ahainen", "ami", "ami", "amo", "ana", "ani", "ani", "ann", "ard", "ari", "ari", "ari", "ari", "as", "as", "as", "ava", "avi",
+    "lavi", "le", "le", "leksanteri", "leksi", "levi", "levi", "lhelmi", "lho", "li", "li", "li", "li", "lijumala", "lis", "lo", "lo", "lo", "lo", "loma",
+    "e", "e", "e", "ea", "ea", "ekiel", "eksanteri", "eksi", "eli", "eli", "eli", "en", "eno", "eppi", "eri", "ero", "et", "eti", "etti", "evi", "evi",
+    "tami", "tamo", "teri", "teri", "tero", "ti", "ti", "ti", "ti", "ti", "tias", "to", "to", "to", "to", "to", "tos", "tri", "tu", "tu", "tu", "turi",
+    "rava", "rho", "ri", "ri", "ri", "ri", "ri", "rik", "rikki", "rikki", "rikki", "ro", "ro", "ro", "ro", "ry",
+    "sa", "sa", "sa", "se", "sekiel", "seli", "seppi", "si", "si", "si", "so", "sti", "sti", "sto", "su",
+    "ma", "ma", "mari", "mari", "mas", "mea", "mi", "mo", "mo", "mo", "mo", "mo", "mu", "mu",
+    "i", "i", "i", "i", "i", "ias", "ias", "ijumala", "ikki", "ikki", "illes", "io", "is",
+    "paa", "pani", "peli", "pertti", "pi", "pias", "po", "po", "po", "po", "pro",
+    "na", "na", "ni", "ni", "nio", "no", "no", "no", "no", "nu", "nu",
+    "va", "vas", "veli", "vet", "vetti", "vi", "vi", "vo", "vo",
+    "o", "o", "o", "o", "o", "olevi", "oma", "os", "osti",
+    "hana", "hana", "hani", "hann", "helmi", "ho", "ho",
+    "u", "u", "u", "u", "u", "usti",
+    "jami", "jo", "jo",
+    "y", "yosti",
+    "drik",
+    "ben"
+]
+
+finnishLastNamePrefixes = [
+    "Ka", "Kan", "Kan", "Kang", "Kemp", "Ki", "Kiv", "Ko", "Ko", "Kok", "Kor", "Kor", "Korp", "Kos", "Kosk",
+    "Laak", "Laaks", "Lam", "Lamp", "Leh", "Leht",
+    "Jar", "Jar", "Jarv", "Jarv", "Jo", "Jok",
+    "Ni", "Nie", "Niem", "Nur", "Nurm",
+    "Ha", "Hal", "Ham", "Han", "Heik",
+    "A", "Aal", "Aalt", "Ah", "An",
+    "Van", "Vir", "Virt",
+    "Ran", "Rant", "Ru",
+    "Peu", "Peur",
+    "Ma", "Mak",
+    "Sep"
+]
+
+finnishLastNamePostfixes = [
+    "i", "i", "i", "inen", "inen", "inen", "inen", "inen",
+    "o", "oho", "onen", "onen", "onen", "onen",
+    "kinen", "kinen", "kinen", "kinen", "ko",
+    "a", "a", "alainen", "anen", "as",
+    "ela", "ela", "eminen", "erva",
+    "painen", "pala", "pela", "pi",
+    "ta", "tanen", "to", "tonen",
+    "hanen", "honen", "honen",
+    "malainen", "mi", "minen",
+    "nala", "nerva", "ninen",
+    "vela", "vi", "vinen",
+    "skinen", "sonen",
+    "gas",
+    "la",
+    "ra"
+]
+
 frenchFirstNameFemalePrefixes = [
     "Ca", "Ca", "Ca", "Ca", "Ca", "Cach", "Cal", "Cam", "Cam", "Cap", "Car", "Car", "Cat", "Ce", "Ce", "Ce", "Ce", "Cel", "Cel", "Cer", "Cer", "Cha", "Cha", "Cha", "Cha", "Cha", "Chab", "Chal", "Cham", "Cham", "Chamb", "Chan", "Chan", "Chan", "Chan", "Chan", "Chand", "Chant", "Chant", "Chant", "Chant", "Chant", "Char", "Char", "Char", "Charl", "Charl", "Charm", "Chat", "Che", "Che", "Che", "Che", "Che", "Chem", "Chen", "Cher", "Cher", "Cher", "Cher", "Cin", "Cind", "Clai", "Clair", "Clau", "Claud", "Co", "Col", "Cor", "Cord",
     "Ma", "Ma", "Ma", "Ma", "Ma", "Mad", "Mal", "Man", "Mar", "Mar", "Mar", "Mar", "Mar", "Marc", "March", "Mard", "Marg", "Marg", "Marj", "Marq", "Marv", "Mat", "Math", "Mau", "Mau", "Maur", "Maur", "Mav", "Me", "Mel", "Mi", "Mi", "Mich", "Mign", "Mir", "Mo", "Mo", "Mon", "Mon", "Mon", "Mont", "Mu", "Mus",
@@ -349,15 +466,18 @@ while(True):
     while(selectCulture == 0):
         print("")
         print("Select a culture to generate from:")
-        print("  Enter 1 for French")
-        print("  Enter 2 for Italian")
+        print("  Enter 1 for Finnish")
+        print("  Enter 2 for French")
+        print("  Enter 3 for Italian")
         print("")
 
         selectCulture = input()
 
         if(selectCulture == 1):
-            typeCulture = "French"
+            typeCulture = "Finnish"
         elif(selectCulture == 2):
+            typeCulture = "French"
+        elif(selectCulture == 3):
             typeCulture = "Italian"
         else:
             print("ERROR - Invalid culture to generate name from.")
@@ -369,7 +489,14 @@ while(True):
         print("")
         print("STANDBY - Generating a random " + typeGender + " " + typeName + " with a " + typeCulture + " feel...")
         print("")
-        if(typeCulture == "French"):
+        if(typeCulture == "Finnish"):
+            if(typeGender == "Female"):
+                namePrefix = finnishFirstNameFemalePrefixes[random.randint(0, len(finnishFirstNameFemalePrefixes) - 1)]
+                namePostfix = finnishFirstNameFemalePostfixes[random.randint(0, len(finnishFirstNameFemalePostfixes) - 1)]
+            elif(typeGender == "Male"):
+                namePrefix = finnishFirstNameMalePrefixes[random.randint(0, len(finnishFirstNameMalePrefixes) - 1)]
+                namePostfix = finnishFirstNameMalePostfixes[random.randint(0, len(finnishFirstNameMalePostfixes) - 1)]
+        elif(typeCulture == "French"):
             if(typeGender == "Female"):
                 namePrefix = frenchFirstNameFemalePrefixes[random.randint(0, len(frenchFirstNameFemalePrefixes) - 1)]
                 namePostfix = frenchFirstNameFemalePostfixes[random.randint(0, len(frenchFirstNameFemalePostfixes) - 1)]
@@ -387,7 +514,10 @@ while(True):
         print("")
         print("STANDBY - Generating a random " + typeName + " with a " + typeCulture + " feel...")
         print("")
-        if(typeCulture == "French"):
+        if(typeCulture == "Finnish"):
+            namePrefix = finnishLastNamePrefixes[random.randint(0, len(finnishLastNamePrefixes) - 1)]
+            namePostfix = finnishLastNamePostfixes[random.randint(0, len(finnishLastNamePostfixes) - 1)]
+        elif(typeCulture == "French"):
             namePrefix = frenchLastNamePrefixes[random.randint(0, len(frenchLastNamePrefixes) - 1)]
             namePostfix = frenchLastNamePostfixes[random.randint(0, len(frenchLastNamePostfixes) - 1)]
         elif(typeCulture == "Italian"):
