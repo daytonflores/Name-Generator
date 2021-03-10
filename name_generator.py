@@ -1,3 +1,10 @@
+##################################################################################
+# REFERENCES                                                                     #
+##################################################################################
+# All first name data was pulled from https://www.top-100-baby-names-search.com/ #
+# All last name data was pulled from https://www.worldlastnames.com/             #
+##################################################################################
+
 import random
 
 selectName = 0
