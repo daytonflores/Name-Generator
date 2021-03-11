@@ -426,6 +426,61 @@ italianLastNamePostfixes = [
     "mano"
 ]
 
+japaneseFirstNameFemalePrefixes = [
+
+]
+
+japaneseFirstNameFemalePostfixes = [
+
+]
+
+japaneseFirstNameMalePrefixes = [
+
+]
+
+japaneseFirstNameMalePostfixes = [
+
+]
+
+japaneseLastNamePrefixes = [
+    "Sa", "Sa", "Sa", "Sa", "Sa", "Sai", "Sait", "Sak", "Sak", "San", "Sas", "Sat", "Shi", "Shib", "Su", "Su", "Sug", "Suz",
+    "Na", "Na", "Na", "Nak", "Nak", "Nak", "Ni", "Nish", "No", "No", "Nog", "Nom",
+    "Ka", "Ka", "Kan", "Kat", "Ki", "Kik", "Ko", "Kob", "Ku", "Kub",
+    "I", "I", "I", "I", "I", "Ich", "Ik", "Im", "Im", "It",
+    "Ya", "Ya", "Ya", "Yam", "Yam", "Yam",
+    "O", "O", "O", "Og", "Ok", "Ot",
+    "Ma", "Ma", "Mak", "Mas", "Mi",
+    "Ha", "Ha", "Har", "Hash",
+    "Fu", "Fu", "Fuj", "Fuj",
+    "Ta", "Ta", "Tak", "Tan",
+    "Wa", "Wa", "Wad", "Wat",
+    "U", "U", "U", "Uch",
+    "Ban", "Band",
+    "Chi", "Chib",
+    "Go", "Got",
+    "A", "Ab"
+]
+
+japaneseLastNamePostfixes = [
+    "a", "a", "a", "ada", "aguchi", "ahashi", "ai", "ai", "aka", "ake", "aki", "amoto", "amoto", "amura", "amura", "anabe", "ano", "ata", "awa", "ayama", "ayashi",
+    "kahashi", "kai", "kamoto", "kamura", "kano", "kayama", "keda", "kino", "kuchi", "kurai",
+    "i", "ida", "ihara", "ikawa", "ikawa", "imoto", "imoto", "ino",
+    "mada", "maguchi", "mai", "mamoto", "mamura", "mura",
+    "uchi", "uchi", "uda", "uki", "ura", "urai", "uri",
+    "take", "tanabe", "to", "to", "to", "to", "to",
+    "saki", "shikawa", "shimoto", "suda",
+    "e", "eda", "eda", "eko", "eno",
+    "o", "o", "o", "o", "o", "oki",
+    "ba", "bata", "bayashi", "bo",
+    "gawa", "gimoto", "guchi",
+    "naka", "neko", "no",
+    "chida", "chikawa",
+    "ji", "jihara",
+    "da", "do",
+    "zuki",
+    "ra"
+]
+
 print("\n")
 print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
 print("WELCOME TO THE NAME GENERATOR")
@@ -476,6 +531,7 @@ while(True):
         print("  Enter 1 for Finnish")
         print("  Enter 2 for French")
         print("  Enter 3 for Italian")
+        print("  Enter 4 for Japanese")
         print("")
 
         selectCulture = input()
@@ -486,6 +542,8 @@ while(True):
             typeCulture = "French"
         elif(selectCulture == 3):
             typeCulture = "Italian"
+        elif(selectCulture == 4):
+            typeCulture = "Japanese"
         else:
             print("ERROR - Invalid culture to generate name from.")
             print("Please try again...")
@@ -517,6 +575,13 @@ while(True):
             elif(typeGender == "Male"):
                 namePrefix = italianFirstNameMalePrefixes[random.randint(0, len(italianFirstNameMalePrefixes) - 1)]
                 namePostfix = italianFirstNameMalePostfixes[random.randint(0, len(italianFirstNameMalePostfixes) - 1)]
+        elif(typeCulture == "Japanese"):
+            if(typeGender == "Female"):
+                namePrefix = japaneseFirstNameFemalePrefixes[random.randint(0, len(japaneseFirstNameFemalePrefixes) - 1)]
+                namePostfix = japaneseFirstNameFemalePostfixes[random.randint(0, len(japaneseFirstNameFemalePostfixes) - 1)]
+            elif(typeGender == "Male"):
+                namePrefix = japaneseFirstNameMalePrefixes[random.randint(0, len(japaneseFirstNameMalePrefixes) - 1)]
+                namePostfix = japaneseFirstNameMalePostfixes[random.randint(0, len(japaneseFirstNameMalePostfixes) - 1)]
     elif(typeName == "Last Name"):
         print("")
         print("STANDBY - Generating a random " + typeName + " with a " + typeCulture + " feel...")
@@ -530,6 +595,9 @@ while(True):
         elif(typeCulture == "Italian"):
             namePrefix = italianLastNamePrefixes[random.randint(0, len(italianLastNamePrefixes) - 1)]
             namePostfix = italianLastNamePostfixes[random.randint(0, len(italianLastNamePostfixes) - 1)]
+        elif(typeCulture == "Japanese"):
+            namePrefix = japaneseLastNamePrefixes[random.randint(0, len(japaneseLastNamePrefixes) - 1)]
+            namePostfix = japaneseLastNamePostfixes[random.randint(0, len(japaneseLastNamePostfixes) - 1)]
 
     print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
     print(namePrefix + namePostfix)
