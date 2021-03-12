@@ -427,19 +427,91 @@ italianLastNamePostfixes = [
 ]
 
 japaneseFirstNameFemalePrefixes = [
-
+    "Ka", "Ka", "Ka", "Ka", "Ka", "Kae", "Kaed", "Kai", "Kaiy", "Kam", "Kan", "Kan", "Kat", "Kats", "Kaw", "Kaz", "Kaz", "Kei", "Kei", "Keik", "Ki", "Ki", "Ki", "Ki", "Kib", "Kik", "Kik", "Kim", "Ko", "Ko", "Kot", "Koz", "Ku", "Ku", "Ku", "Kum", "Kun", "Kur", "Kur", "Kurv", "Ky",
+    "Sa", "Sa", "Sa", "Sa", "Sa", "Sach", "Sak", "Sak", "San", "Sang", "Sat", "Say", "Se", "Se", "Sei", "Seij", "Sek", "Set", "Sets", "Shi", "Shi", "Shi", "Shi", "Shi", "Shig", "Shik", "Shin", "Shiz", "So", "Sor", "Su", "Su", "Su", "Su", "Suk", "Sum", "Sut", "Suz",
+    "Ma", "Ma", "Ma", "Ma", "Ma", "Mach", "Mad", "Mai", "Mai", "Maim", "Mak", "Mak", "Man", "Mar", "Mar", "Mas", "May", "Mi", "Mi", "Mi", "Mi", "Mi", "Mik", "Mik", "Mik", "Min", "Mir", "Mis", "Mis", "Miy", "Miy", "Miz", "Mo", "Mo", "Mo", "Mom", "Mor", "Mot",
+    "A", "A", "A", "A", "A", "Ai", "Ai", "Ai", "Ai", "Aik", "Aim", "Aiy", "Ak", "Ak", "Ak", "Ak", "Am", "Am", "Am", "An", "An", "An", "An", "Ank", "Anz", "Ar", "As", "As", "As", "Au", "Ay", "Ay", "Ay", "Ay", "Az", "Az",
+    "Ha", "Ha", "Ha", "Ha", "Ha", "Han", "Han", "Han", "Han", "Har", "Hay", "Hi", "Hi", "Hi", "Hi", "Hi", "Hid", "Hid", "Hid", "Hir", "Hir", "His", "Ho", "Ho", "Hosh", "Hot",
+    "Ta", "Ta", "Ta", "Ta", "Ta", "Tad", "Tak", "Tak", "Tak", "Tam", "Tam", "Tam", "Tan", "To", "To", "To", "To", "To", "Tom", "Tom", "Tom", "Tom", "Tosh", "Tsu", "Tsun",
+    "Ya", "Ya", "Yas", "Yay", "Yo", "Yo", "Yo", "Yo", "Yosh", "Yosh", "Yosh", "Yu", "Yu", "Yu", "Yu", "Yu", "Yub", "Yuk", "Yum", "Yum", "Yur",
+    "E", "E", "E", "E", "E", "Ei", "Eik", "Em", "Em", "En", "Er", "Er", "Et", "Et", "Ets", "Ets",
+    "Chi", "Chi", "Chi", "Chi", "Chi", "Chih", "Chik", "Chin", "Chit", "Chiy", "Chiz", "Cho",
+    "Na", "Na", "Na", "Na", "Na", "Nag", "Nan", "Nar", "Nat", "Nats", "No", "Nor", "Ny",
+    "Rai", "Ran", "Ri", "Rik", "Ro", "Rok", "Ry", "Ry",
+    "U", "U", "U", "U", "Um", "Um", "Ur", "Ut",
+    "I", "I", "I", "Ik", "In", "It",
+    "Dai", "Dai", "Dait", "Den",
+    "Jin", "Jun", "Jun", "Junk",
+    "Gen", "Gi", "Gin",
+    "Wa", "Wak", "Wat",
+    "Bun", "Bunk",
+    "Fu", "Fum"
 ]
 
 japaneseFirstNameFemalePostfixes = [
-
+    "a", "a", "a", "a", "a", "ae", "ai", "aka", "aki", "ako", "ako", "ako", "ako", "ako", "ame", "ami", "ami", "ami", "ami", "an", "an", "ane", "ano", "ano", "ano", "ano", "ara", "aru", "aru", "asa", "ashi", "aterasu", "aya", "azuki",
+    "ka", "ka", "kae", "kako", "kane", "kara", "kazuki", "ke", "kha", "ki", "ki", "ki", "ki", "ki", "kia", "kiko", "kina", "kira", "kiya", "ko", "ko", "ko", "ko", "ko", "kona", "ku", "ku", "kuko", "kumi",
+    "mako", "materasu", "maya", "me", "me", "meko", "mena", "mi", "mi", "mi", "mi", "mi", "mida", "miko", "miko", "miko", "miko", "miko", "miye", "miyo", "mo", "moko", "moni",
+    "i", "i", "i", "i", "i", "ia", "ia", "ida", "ie", "iko", "iko", "iko", "iko", "iko", "imasa", "ina", "ina", "io", "ira", "isa", "ity", "iya", "iye", "iyo",
+    "n", "n", "n", "n", "n", "na", "na", "na", "na", "na", "naisha", "naka", "nako", "nami", "nan", "ne", "ne", "ne", "neen", "ni", "ni", "no", "nya",
+    "sa", "saki", "sako", "sami", "sano", "shi", "shi", "shie", "shiko", "shimasa", "su", "suka", "suko", "suko", "suko", "suko", "sumi", "sumi",
+    "u", "u", "u", "u", "u", "ue", "uka", "uki", "uki", "uki", "uko", "uko", "uko", "uko", "uko", "umi", "umi", "umi", "umi", "umi", "un",
+    "o", "o", "o", "o", "o", "oi", "oka", "oki", "oko", "oko", "oko", "omi", "ona", "one", "oni", "ori", "ose", "oto",
+    "ra", "ra", "rai", "rano", "ri", "ri", "ria", "riko", "riko", "rina", "risu", "rity", "ro", "romi", "ru", "ruki",
+    "tan", "tan", "tano", "taru", "te", "to", "to", "to", "tone", "tose", "tsuko", "tsuko", "tsumi",
+    "ya", "ya", "yaka", "yako", "yami", "yano", "yo", "yo", "yo", "yoi", "yumi", "yumi", "yuri",
+    "e", "e", "e", "e", "e", "een", "eko", "eko", "eko", "eko", "ena", "eyo",
+    "zami", "zashi", "zu", "zu", "zu", "zue", "zuki", "zuki", "zuko", "zumi",
+    "dame", "de", "de", "deko", "deyo", "doka",
+    "geko", "gisa", "go",
+    "ha", "haru", "ho",
+    "chi", "chio",
+    "bi", "bo",
+    "jun",
+    "va",
+    "wa"
 ]
 
 japaneseFirstNameMalePrefixes = [
-
+    "Ta", "Ta", "Ta", "Ta", "Ta", "Tai", "Tai", "Tai", "Taig", "Taish", "Taiy", "Tak", "Tak", "Tak", "Tam", "Tan", "Tar", "Tat", "Tats", "Te", "Te", "Te", "Te", "Ten", "Tench", "Ter", "Ter", "Tet", "Tet", "Tets", "Tets", "To", "To", "To", "To", "Tor", "Tosh", "Tosh", "Toz", "Tsu", "Tsut",
+    "Sa", "Sa", "Sa", "Sab", "Sad", "Sat", "Se", "Sen", "Sha", "Sham", "Shi", "Shi", "Shi", "Shi", "Shig", "Shin", "Shin", "Shoi", "Shoich", "Shom", "Shu", "Shuj", "Si", "Sin",
+    "Ka", "Ka", "Ka", "Kao", "Kaor", "Kat", "Kaz", "Ken", "Ken", "Ken", "Kenj", "Kent", "Ki", "Ki", "Ki", "Ki", "Ki", "Kich", "Kin", "Kish", "Kit", "Kiy", "Kiy",
+    "Ma", "Ma", "Ma", "Ma", "Ma", "Man", "Manz", "Mas", "Mas", "Mas", "Mas", "Mas", "Mi", "Mi", "Mi", "Mi", "Mich", "Mich", "Min", "Mit", "Mits", "Mon", "Mont",
+    "Ya", "Yas", "Yo", "Yo", "Yo", "Yo", "Yoi", "Yor", "Yosh", "Yosh", "Yosh", "Yu", "Yu", "Yuj", "Yuk", "Yuu",
+    "Ha", "Ha", "Ha", "Ha", "Hach", "Haj", "Har", "Har", "Hi", "Hi", "Hi", "Hi", "Hik", "Hir", "Hir", "His",
+    "A", "A", "A", "A", "A", "Ak", "Ak", "Ak", "Ak", "Am", "Ar", "Ar", "At", "Ats",
+    "Na", "Na", "Nam", "Nen", "Nik", "No", "No", "Nob", "Nob",
+    "Rei", "Ren", "Renj", "Rin", "Ring", "Ro", "Ron", "Ry",
+    "E", "E", "Ei", "Ei", "Eich", "Eik", "En", "Ez",
+    "Dai", "Dai", "Daich", "Dais",
+    "Gen", "Genk", "Go", "Gor",
+    "Fu", "Fu", "Fud", "Fuj",
+    "I", "I", "Is", "Iz",
+    "O", "O", "Os", "Oz",
+    "Jo", "Job",
+    "Zi", "Zin",
+    "U", "Ut"
 ]
 
 japaneseFirstNameMalePostfixes = [
-
+    "saaki", "sahiro", "samu", "sanori", "sao", "sashi", "sashiko", "sayuki", "shi", "shi", "shikazu", "shinori", "shiro", "shita", "shito", "sip", "soka", "suke", "suo", "suo", "sushi", "suya", "suyo",
+    "i", "i", "i", "i", "i", "ichi", "ichi", "ichi", "ihiko", "ihiro", "ikazu", "ime", "in", "inori", "io", "ira", "iro", "iro", "iro", "ita", "ita", "ito", "iyo", "iyo",
+    "a", "a", "a", "a", "aaki", "ahiro", "ahiro", "akan", "amu", "an", "anagi", "anori", "ao", "ao", "aro", "aro", "aru", "ashi", "ashi", "ashiko", "ata", "ayuki",
+    "u", "u", "u", "uhiko", "uke", "uma", "ume", "uo", "uo", "uo", "uro", "uru", "ushi", "uyo", "uyuki",
+    "o", "o", "o", "o", "o", "oka", "oki", "oko", "omu", "on", "ori", "oshi", "oshi", "oshi", "oyuki",
+    "kahiro", "karu", "kemi", "keo", "ki", "ki", "kihiko", "kihiro", "kira", "kiyo", "ko", "ko",
+    "rakan", "rata", "ri", "ri", "rio", "ro", "ro", "roki", "royuki", "ru", "ru", "ruma", "ruo",
+    "ta", "taro", "taro", "tashi", "terio", "tomu", "toshi", "tsip", "tsuo", "tsuo", "tsuya",
+    "n", "n", "n", "n", "na", "nan", "ni", "nichi", "nichi", "nichi", "nin", "no", "nori",
+    "chi", "chi", "chi", "chi", "chi", "chiro", "chiya",
+    "zanagi", "zen", "zo", "zuhiko", "zume", "zuru",
+    "ji", "ji", "ji", "jime", "jiro", "jita",
+    "emi", "en", "en", "en", "eo", "erio",
+    "ma", "ma", "mida", "miyo", "mon",
+    "ben", "bu", "buro", "buyuki",
+    "yo", "yo", "yoshi",
+    "dai", "dao", "do",
+    "g", "gen", "go"
 ]
 
 japaneseLastNamePrefixes = [
@@ -481,10 +553,10 @@ japaneseLastNamePostfixes = [
     "ra"
 ]
 
-print("\n")
-print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
-print("WELCOME TO THE NAME GENERATOR")
-print("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
+print("")
+print(">>>>>>>>>>>>>>>>>>>>>>>>>>>")
+print("WELCOME TO THE STORY HELPER")
+print("<<<<<<<<<<<<<<<<<<<<<<<<<<<")
 
 while(True):
     while(selectName == 0):
